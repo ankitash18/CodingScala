@@ -1,0 +1,92 @@
+
+
+
+
+
+access e-learnign component - 
+
+1) visit - lms.simplilearn.com
+2)login with 
+
+industry rule -
+the moment ur data crosses 999gb i.e  into terabyte ,is big data.
+
+RAC - 
+group of nodes(group of computer).
+29 node of cluster(commodity hardware).
+
+scaling out/up - increasing cluster.
+
+Big dtaa has following characteristics - 
+1) variety - manages data com[lexity
+2) velocity  - manages data streaming
+3)volume - manages  data scaling
+4)veracity - manages data accuracy
+5)variablity - manages constantly changing data
+6)visulization - manage data comprehensibilty
+7)value - mananges data value
+
+Bug data tehcnology help to respond to the big data charaertitics - 
+
+1)process high volume of data
+2)respond to high velocity of data
+3)analyzer high varierty of data  and handles node failure
+
+
+we dont archive old data in hadoop.
+
+Why is big data popular and gaining atention amog various enterprises - 
+
+1)maanges and 	porcess high data is cosr efficient manner
+2)analyses all avialable data irrespecrive of data ttpe
+3)captures data form fast occuring events in real time
+4)handles failure of islolated nodes and taskes  assigend tosuch nodes
+
+
+t odownload scala -
+
+1)java
+2)scala-lang.org/download
+3)mv downaod to current directory
+4)tar xzf  scala.tar.gz
+6) settingn home path -
+7)cat .bashrc
+java_hommr
+scala_home
+export_path - bin directory of both
+
+every value is an object.
+
+Case class is also a class, however when we compare it with normal class, it gives us some extra features or benefits.
+
+The following are the complete list of Advantages/Benefits of Scala’s Case class:
+
+By default, Scala Compiler adds toString, hashCode and equals methods. We can avoid writing this boilerplate code.
+By default, Scala Compiler adds companion object with apply and unapply methods that’s why we don’t need new keyword to create instances of a case class.
+By default, Scala Compiler adds copy method too.
+We can use case classes in Pattern Matching.
+By default, Case class and Case Objects are Serializable.
+By using Case Classes, we can define Algebraic data types (ADT).
+They improve productivity that means it avoids writing lot of boilerplate code so that Developers can deliver a functionality with less effort.
+All these features are added by Scala Compiler at compile-time. It is not possible with normal class.
+
+------------------------------------------
+Case class is a class which is defined with “case class” keywords. Case object is an object which is defined with “case object” keywords. Because of this “case” keyword, we will get some benefits to avoid boilerplate code.
+
+e can create case class objects without using “new” keyword. By default, Scala compiler prefixes “val” for all constructor parameters. 
+That’s why without using val or var, Case  constructor parameters will become class members, it is not possible for normal classes.
+
+Advantages of case class:
+
+By default, Scala Compiler adds toString, hashCode and equals methods. We can avoid writing this boilerplate code.
+By default, Scala Compiler adds companion object with apply and unapply methods that’s why we don’t need new keyword to create instances of a case class.
+By default, Scala Compiler adds copy method too.
+We can use case classes in Pattern Matching.
+By default, Case class and Case Objects are Serializable.
+---------------------------------------------------------------------------------------
+
+Why Apache Spark ...
+Apache Spark run programs up to 100x faster than Hadoop MapReduce in memory, or 10x faster on disk. Apache Spark has an advanced DAG execution engine that supports cyclic data flow and in-memory computing. Apache Spark offers over 80 high-level operators that make it easy to build parallel apps. And you can use it interactively from the Scala, Python and R shells. Apache Spark can combine SQL, streaming, and complex analytics.
+Apache Spark powers a stack of libraries including SQL and DataFrames, MLlib for machine learning, GraphX, and Spark Streaming. You can combine these libraries seamlessly in the same application.
+
+
